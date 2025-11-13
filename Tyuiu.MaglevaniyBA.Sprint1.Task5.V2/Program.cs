@@ -31,8 +31,9 @@ namespace Tyuiu.MaglevaniyBA.Sprint1.Task5.V2
             Console.WriteLine("**************************************************************************");
 
             double Temp = double.Parse(Console.ReadLine());
+            int res = ds.FahrenheitToСelsius(Temp);
 
-            Console.WriteLine(ds.FahrenheitToСelsius(Temp));
+            Console.WriteLine(Convert.ToInt32(res));
 
             Console.ReadLine();
         }
