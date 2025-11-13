@@ -14,8 +14,8 @@ namespace Tyuiu.MaglevaniyBA.Sprint1.Task5.V2
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* Спринт #1                                                              *");
             Console.WriteLine("* Тема: Базовые навыки работы по С#                                      *");
-            Console.WriteLine("* Задание #3                                                             *");
-            Console.WriteLine("* Вариант #6                                                             *");
+            Console.WriteLine("* Задание #5                                                             *");
+            Console.WriteLine("* Вариант #2                                                             *");
             Console.WriteLine("* Выполнил: Маглёваный Богдан Александрович | НТм-24-1                   *");
             Console.WriteLine("**************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                               *");
@@ -30,10 +30,9 @@ namespace Tyuiu.MaglevaniyBA.Sprint1.Task5.V2
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("**************************************************************************");
 
-            double X = double.Parse(Console.ReadLine());
+            double Temp = double.Parse(Console.ReadLine());
 
-
-            Console.WriteLine(ds.FahrenheitToСelsius(X));
+            Console.WriteLine(ds.FahrenheitToСelsius(Temp));
 
             Console.ReadLine();
         }
