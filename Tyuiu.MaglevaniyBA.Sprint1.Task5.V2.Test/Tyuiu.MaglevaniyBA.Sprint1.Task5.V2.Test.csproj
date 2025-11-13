@@ -20,4 +20,6 @@
     <ProjectReference Include="..\Tyuiu.MaglevaniyBA.Sprint1.Task5.V2.Lib\Tyuiu.MaglevaniyBA.Sprint1.Task5.V2.Lib.csproj" />
   </ItemGroup>
 
+ 
+
 </Project>
